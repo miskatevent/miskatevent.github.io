@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <section id="top" class="top">
+      {%- include top.html -%}
+    </section>
+
+    <section id="services" class="services">
+      {%- include services.html -%}
+    </section>
+
+    <div id="page-content" class="page-content experiences">
+        {{ content }}
+    </div>
+    
+    <section id="teams" class="teams">
+      {%- include teams.html -%}
+    </section>
+    
+    <section id="clients" class="clients">
+      {%- include clients.html -%}
+    </section>
+    
+    <section id="footer" class="footer">
+      {%- include footer.html -%}
+    </section>
+    
+    <section id="copyright" class="copyright">
+      {%- include copyright.html -%}
+    </section>
+
+  </body>
+
+</html>

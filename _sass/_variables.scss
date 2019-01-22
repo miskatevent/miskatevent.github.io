@@ -1,0 +1,28 @@
+// This is the place to place Bootstrap's variables overrides.
+// As example you can start by importing the _variables.scss file from one of the
+// theme provided by https://bootswatch.com .
+$black:    								#000;
+$primary:								#15566d;
+$mak-blue:								#45a5d1;
+$mak-blue-light:						#8db2cc;
+$mak-gray:								#939596;
+$font-family-base: 						'Roboto', sans-serif;
+$font-family-button: 					'Roboto Slab', serif;
+
+// navbar
+$navbar-light-color:                	#222;
+$navbar-light-hover-color:          	$mak-blue;
+$navbar-light-active-color:         	$mak-blue;
+
+$navbar-nav-link-padding-x:         	1rem;
+
+// section main
+$section-main-color:					$mak-blue;
+// Some customization of the container class to have a better display in the guide.
+// Don't hesitate to remove it to have a standard Bootstrap behavior
+$container-max-widths: (
+  sm: 800px,
+  md: 900px,
+  lg: 940px,
+  xl: 980px
+) !default;

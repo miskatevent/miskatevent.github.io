@@ -1,0 +1,11 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "variables";
+@import "bootstrap/bootstrap";
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+@import "syntax-highlighting";
+@import "customize";
