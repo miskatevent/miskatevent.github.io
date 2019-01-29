@@ -1,2 +1,2 @@
-# miskateo.github.io
+# miskatevent.github.io
 PT. Miskat Alam Internasional | Official website miskateo.id
