@@ -1,0 +1,11 @@
+nav:
+- name: Home
+  link: '/'
+- name: Services
+  link: '#services'
+- name: Experiences
+  link: /experiences.html
+- name: Teams
+  link: '#teams'
+- name: Contact
+  link: '#footer'

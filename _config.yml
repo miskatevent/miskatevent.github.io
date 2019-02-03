@@ -22,7 +22,7 @@ url:              "http://miskateo.id" # the base hostname & protocol for your s
 twitter_username: miskateo.id
 github_username:  miskateo
 
-repository:       "miskateo/miskateo.github.io"
+repository:       "miskatevent/miskatevent.github.io"
 lang:             "en"
 
 title-img:        "/assets/img/logo-mai-warna.svg"

@@ -1,10 +1,38 @@
 <div class="container pt-5 pb-5">
 	<div class="row">
-		<div class="col-md">
+		<div class="col-md mb-3">
 			<h2 class="text-center">Our Last Projects</h2>
 			<p class="font-weight-light text-center">
-				Some of our last project. The project also listed on our Company profile.
+				Some of our last project. The full project also listed on our Experience tabs above.
 			</p>
+		</div>
+	</div>
+	<!-- the projects begin -->
+	<div class="row">
+    {% assign sorted-project = site.posts | sort: 'date' | reverse %}
+		{% for project in sorted-project limit: 4 %}
+		<div class="col-md">
+			<div class="card">
+			  <img src="{{project.image}}" />
+			  <div class="card-body">
+			    <h5 class="card-title">{{ project.client }}</h5>
+			    <p class="card-text">{{ project.title }}</p>
+			  </div>
+			  <ul class="list-group list-group-flush">
+			    <li class="list-group-item">{{ project.location }}</li>
+			    <li class="list-group-item">{{ project.date | date_to_string }}</li>
+			  </ul>
+			  <div class="card-body">
+			    <a href="#" class="btn btn-primary">Learn More</a>
+			  </div>
+			</div>
+		</div>
+    {% endfor %}
+	</div>
+	<!-- !end the projects -->
+	<div class="row pt-5">
+		<div class="col-md">
+			<p class="text-center">For all the projects are listed <a href="{{site.url}}/experiences.html">here</a>.</p>
 		</div>
 	</div>
 </div>

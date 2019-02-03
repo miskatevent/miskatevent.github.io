@@ -5,32 +5,14 @@
 
   <body>
 
-    {%- include header.html -%}
+    {%- include navbar.html -%}
 
-    <section id="top" class="top">
-      {%- include top.html -%}
-    </section>
+    {{ content }}
 
-    <section id="services" class="services">
-      {%- include services.html -%}
-    </section>
-
-    <div id="page-content" class="page-content experiences">
-        {{ content }}
-    </div>
-    
-    <section id="teams" class="teams">
-      {%- include teams.html -%}
-    </section>
-    
-    <section id="clients" class="clients">
-      {%- include clients.html -%}
-    </section>
-    
     <section id="footer" class="footer">
       {%- include footer.html -%}
     </section>
-    
+
     <section id="copyright" class="copyright">
       {%- include copyright.html -%}
     </section>

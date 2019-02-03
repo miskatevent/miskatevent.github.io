@@ -20,9 +20,11 @@
   <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
   <link rel="shortcut icon" type="image/png" href="favicon.png"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Miskat Alam Internasional" /><script src="http://localhost:4000/assets/js/bootstrap/jquery-3.3.1.min.js"></script>
   <script src="http://localhost:4000/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="http://localhost:4000/assets/js/vanilla-back-to-top.min.js"></script>
+  <script src="http://localhost:4000/assets/js/app.js"></script>
 </head>
 <body><nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-  <div class="container">   
+  <div class="container">
     <a class="navbar-brand navbar-brand-logo" href="http://localhost:4000">
       <img src="http://localhost:4000/assets/img/logo-mai-warna.svg" width="180" alt="Miskat Alam Internasional"/>
       <span class="h4 text-hide">Miskat Alam Internasional</span>
@@ -33,16 +35,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="#top">Home</a></li>
+        
+          <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#experiences">Experiences</a></li>
+        
+          <li class="nav-item"><a class="nav-link" href="/experiences.html">Experiences</a></li>
+        
           <li class="nav-item"><a class="nav-link" href="#teams">Teams</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        
+          <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+        
       </ul>
     </div>
   </div>
 </nav>
 <section id="top" class="top"><div class="container main">
+  
 	<div class="row pb-5">
 		<div class="col-md-6 pt-5">
 			<h1 class="main-heading">
@@ -51,16 +60,17 @@
 			<p class="text-justify main-subtitle">
 				Established in 2015, PT. Miskat Alam Internasional is an event organizer company in Jakarta that handles all your creatives with a lot of cup of coffee and full of ❤.
 			</p>
-			<button type="button" class="btn btn-primary">Learn More</button>
+			<a href="#footer" class="btn btn-primary">More Info</a>
 		</div>
 		<div class="col-md-6 pt-5">
-			<img src="assets/img/main-img.jpg" alt="" class="img-fluid rounded">
+			<img src="http://localhost:4000/assets/img/main-img.jpg" alt="" class="img-fluid rounded">
 		</div>
 	</div>
+  
 </div>
 </section>
 
-    <section id="services" class="services"><div class="container pt-5 pb-5">
+<section id="services" class="services"><div class="container pt-5 pb-5">
 	<div class="row pb-5">
 		<div class="col-md">
 			<h2 class="text-center">What we can do?</h2>
@@ -108,92 +118,98 @@
 </div>
 </section>
 
-    <div id="page-content" class="page-content experiences">
-        <div class="container pt-5 pb-5">
+<div id="page-content" class="page-content experiences"><div class="container pt-5 pb-5">
 	<div class="row">
 		<div class="col-md mb-3">
 			<h2 class="text-center">Our Last Projects</h2>
 			<p class="font-weight-light text-center">
-				Some of our last project. The project also listed on our Company profile.
+				Some of our last project. The full project also listed on our Experience tabs above.
 			</p>
 		</div>
 	</div>
+	<!-- the projects begin -->
 	<div class="row">
+    
+		
 		<div class="col-md">
-	<div class="card">
-	  <img src="https://via.placeholder.com/200x150?text=MAI" />
-	  <div class="card-body">
-	    <h5 class="card-title">BEKRAF</h5>
-	    <p class="card-text">Workshop Aktivasi Ekosistem Ekonomi Kreatif</p>
-	  </div>
-	  <ul class="list-group list-group-flush">
-	    <li class="list-group-item">Yogyakarta</li>
-	    <li class="list-group-item">20 Desember 2018</li>
-	  </ul>
-	  <div class="card-body">
-	    <a href="#" class="btn btn-primary">Learn More</a>
-	  </div>
+			<div class="card">
+			  <img src="https://via.placeholder.com/200x150?text=MAI" />
+			  <div class="card-body">
+			    <h5 class="card-title">KEMENPAR</h5>
+			    <p class="card-text">Perpanjangan Sertifikat Asesor Kompetensi</p>
+			  </div>
+			  <ul class="list-group list-group-flush">
+			    <li class="list-group-item">Semarang</li>
+			    <li class="list-group-item">21 Dec 2018</li>
+			  </ul>
+			  <div class="card-body">
+			    <a href="#" class="btn btn-primary">Learn More</a>
+			  </div>
+			</div>
+		</div>
+    
+		<div class="col-md">
+			<div class="card">
+			  <img src="https://via.placeholder.com/200x150?text=MAI" />
+			  <div class="card-body">
+			    <h5 class="card-title">BEKRAF</h5>
+			    <p class="card-text">Workshop Aktivasi Ekosistem Ekonomi Kreatif</p>
+			  </div>
+			  <ul class="list-group list-group-flush">
+			    <li class="list-group-item">Yogyakarta</li>
+			    <li class="list-group-item">20 Dec 2018</li>
+			  </ul>
+			  <div class="card-body">
+			    <a href="#" class="btn btn-primary">Learn More</a>
+			  </div>
+			</div>
+		</div>
+    
+		<div class="col-md">
+			<div class="card">
+			  <img src="https://via.placeholder.com/200x150?text=MAI" />
+			  <div class="card-body">
+			    <h5 class="card-title">BEKRAF</h5>
+			    <p class="card-text">Seminar Hak Kekayaan Intelektual Untuk Produk Ekonomi Kreatif</p>
+			  </div>
+			  <ul class="list-group list-group-flush">
+			    <li class="list-group-item">Deli Serdang</li>
+			    <li class="list-group-item">07 Dec 2018</li>
+			  </ul>
+			  <div class="card-body">
+			    <a href="#" class="btn btn-primary">Learn More</a>
+			  </div>
+			</div>
+		</div>
+    
+		<div class="col-md">
+			<div class="card">
+			  <img src="https://via.placeholder.com/200x150?text=MAI" />
+			  <div class="card-body">
+			    <h5 class="card-title">KEMENPAR</h5>
+			    <p class="card-text">FGD Monitoring dan Evaluasi Pengembangan Desa Wisata Melalui Pendampingan</p>
+			  </div>
+			  <ul class="list-group list-group-flush">
+			    <li class="list-group-item">Deli Serdang</li>
+			    <li class="list-group-item">28 Nov 2018</li>
+			  </ul>
+			  <div class="card-body">
+			    <a href="#" class="btn btn-primary">Learn More</a>
+			  </div>
+			</div>
+		</div>
+    
 	</div>
-</div>
-<div class="col-md">
-	<div class="card">
-	  <img src="https://via.placeholder.com/200x150?text=MAI" />
-	  <div class="card-body">
-	    <h5 class="card-title">BEKRAF</h5>
-	    <p class="card-text">Seminar Hak Kekayaan Intelektual Untuk Produk Ekonomi Kreatif</p>
-	  </div>
-	  <ul class="list-group list-group-flush">
-	    <li class="list-group-item">Deli Serdang</li>
-	    <li class="list-group-item">07 Desember 2018</li>
-	  </ul>
-	  <div class="card-body">
-	    <a href="#" class="btn btn-primary">Learn More</a>
-	  </div>
-	</div>
-</div>
-<div class="col-md">
-	<div class="card">
-	  <img src="https://via.placeholder.com/200x150?text=MAI" />
-	  <div class="card-body">
-	    <h5 class="card-title">KEMENPAR</h5>
-	    <p class="card-text">FGD Monitoring dan Evaluasi Pengembangan Desa Wisata Melalui Pendampingan</p>
-	  </div>
-	  <ul class="list-group list-group-flush">
-	    <li class="list-group-item">Lombok</li>
-	    <li class="list-group-item">28 November 2018</li>
-	  </ul>
-	  <div class="card-body">
-	    <a href="#" class="btn btn-primary">Learn More</a>
-	  </div>
-	</div>
-</div>
-<div class="col-md">
-	<div class="card">
-	  <img src="https://via.placeholder.com/200x150?text=MAI" />
-	  <div class="card-body">
-	    <h5 class="card-title">KEMENPAR</h5>
-	    <p class="card-text">Perpanjangan Sertifikat Asesor Kompetensi</p>
-	  </div>
-	  <ul class="list-group list-group-flush">
-	    <li class="list-group-item">Semarang</li>
-	    <li class="list-group-item">21 November 2018</li>
-	  </ul>
-	  <div class="card-body">
-	    <a href="#" class="btn btn-primary">Learn More</a>
-	  </div>
-	</div>
-</div>
-
-	</div>
+	<!-- !end the projects -->
 	<div class="row pt-5">
 		<div class="col-md">
-			<p class="text-center">For all the projects are listed <a href="#">here</a>.</p>
+			<p class="text-center">For all the projects are listed <a href="http://localhost:4000/experiences.html">here</a>.</p>
 		</div>
 	</div>
 </div>
-    </div>
-    
-    <section id="teams" class="teams"><div class="container pt-5 pb-5">
+</div>
+
+<section id="teams" class="teams"><div class="container pt-5 pb-5">
 	<div class="row pb-4">
 		<div class="col-md">
 			<h2 class="text-center">Our lovely teams</h2>
@@ -202,125 +218,139 @@
 	<div class="row">
 		<div class="col-md">
 			<!-- corousel -->
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=RAM" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Ramdan Wulan Agung</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Director at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=NAS" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Anas Nasrulloh</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Manager at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=MEL" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Amelia</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=INK" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Intan Kartika</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100/?text=JSP" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Jajang Saepudin</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			  </div>
+			<div id="maiCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+<div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p>“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.” </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><img src="https://via.placeholder.com/100?text=RAM" class="rounded-circle" /></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 pt-2"><strong>Ramdan Wulan Agung</strong></p></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Director at Miskat Alam Internasional</p></div>
+      </div>
+    </div>
+</div>
 
-			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-			      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			      <span class="sr-only text-dark">Previous</span>
-			    </a>
-			    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-			      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			      <span class="sr-only text-dark">Next</span>
-			    </a>
-			</div>
-			<!-- /corousel -->
-		</div>
-	</div>
-</div></section>
-    
-    <section id="clients" class="clients"><div class="container">
+<div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p>“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.” </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><img src="https://via.placeholder.com/100?text=NAS" class="rounded-circle" /></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 pt-2"><strong>Anas Nasrullah</strong></p></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Manager at Miskat Alam Internasiona</p></div>
+      </div>
+    </div>
+</div>
+
+<div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p>“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.” </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><img src="https://via.placeholder.com/100?text=MEL" class="rounded-circle" /></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 pt-2"><strong>Amelia</strong></p></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
+      </div>
+    </div>
+</div>
+
+<div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p>“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.” </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><img src="https://via.placeholder.com/100?text=TAN" class="rounded-circle" /></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 pt-2"><strong>Intan Kartika</strong></p></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Director at Miskat Alam Internasional</p></div>
+      </div>
+    </div>
+</div>
+
+<div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p>“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.” </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><img src="https://via.placeholder.com/100?text=ANX" class="rounded-circle" /></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 pt-2"><strong>Aang Supriatna</strong></p></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
+      </div>
+    </div>
+</div>
+
+<div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p>“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.” </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><img src="https://via.placeholder.com/100?text=JSP" class="rounded-circle" /></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 pt-2"><strong>Jajang Saepudin</strong></p></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
+      </div>
+    </div>
+</div>
+
+<a class="carousel-control-prev" href="#maiCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only text-dark">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#maiCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only text-dark">Next</span>
+          </a>
+        </div>
+		  </div>
+      <!-- /corousel -->
+	 </div>
+  </div>
+</div>
+</section>
+
+<section id="clients" class="clients"><div class="container">
 	<div class="row">
 		<div class="col-md"><img src="assets/img/logo-bekraf-white.png" /></div>
 		<div class="col-md"><img src="assets/img/logo-wi-white.png" /></div>
@@ -330,9 +360,9 @@
 		<div class="col-md"><img src="assets/img/logo-pu-white.png" /></div>
 	</div>
 </div></section>
-    
-    <section id="footer" class="footer">
-<div class="py-5">
+
+
+    <section id="footer" class="footer"><div class="py-5">
   <div class="container">
     <div class="row">
       <div class="col-md">
@@ -378,7 +408,7 @@
   </div>
 </div>
 </section>
-    
+
     <section id="copyright" class="copyright"><div class="container">
 	<div class="row pt-3 pb-3">
 		<div class="col-9">Copyright 2019 Miskateo.id. All Rights Reserved.</div>

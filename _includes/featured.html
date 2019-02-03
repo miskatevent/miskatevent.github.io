@@ -1,0 +1,18 @@
+<div class="container main">
+  {% for feat in site.data.featured.slogan limit: 1 %}
+	<div class="row pb-5">
+		<div class="col-md-6 pt-5">
+			<h1 class="main-heading">
+				{{ feat.title }}
+			</h1>
+			<p class="text-justify main-subtitle">
+				{{ feat.subtitle }}
+			</p>
+			<a href="{{ feat.link }}" class="btn btn-primary">More Info</a>
+		</div>
+		<div class="col-md-6 pt-5">
+			<img src="{{ site.url }}{{ feat.image }}" alt="" class="img-fluid rounded">
+		</div>
+	</div>
+  {% endfor %}
+</div>

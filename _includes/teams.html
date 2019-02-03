@@ -7,120 +7,20 @@
 	<div class="row">
 		<div class="col-md">
 			<!-- corousel -->
-			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=RAM" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Ramdan Wulan Agung</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Director at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=NAS" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Anas Nasrulloh</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Manager at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=MEL" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Amelia</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100?text=INK" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Intan Kartika</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			    <div class="carousel-item">
-			        <div class="container">
-			        	<div class="row">
-			        		<div class="col-md text-center">
-								<p>
-									“Hello and welcome, glad to see you. Remember to trust the next event with our company, because we consists of an experienced and dedicated teams. See you on your next event.”
-								</p>
-			        		</div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><img src="https://via.placeholder.com/100/?text=JSP" class="rounded-circle" /></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 pt-2"><strong>Jajang Saepudin</strong></p></div>
-			        	</div>
-			        	<div class="row">
-			        		<div class="col-md text-center"><p class="m-0 py-1 font-weight-light">Staff at Miskat Alam Internasional</p></div>
-			        	</div>
-			        </div>
-			    </div>
-			  </div>
-
-			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-			      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			      <span class="sr-only text-dark">Previous</span>
-			    </a>
-			    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-			      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			      <span class="sr-only text-dark">Next</span>
-			    </a>
-			</div>
-			<!-- /corousel -->
-		</div>
-	</div>
+			<div id="maiCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+        {%- include teams-lists.html -%}
+          <a class="carousel-control-prev" href="#maiCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only text-dark">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#maiCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only text-dark">Next</span>
+          </a>
+        </div>
+		  </div>
+      <!-- /corousel -->
+	 </div>
+  </div>
 </div>

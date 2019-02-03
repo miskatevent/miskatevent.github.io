@@ -1,0 +1,20 @@
+{% for team in site.data.teams.team %}
+<div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-md text-center">
+          <p>“{{ team.quotes }}” </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><img src="{{ team.image }}" class="rounded-circle" /></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 pt-2"><strong>{{ team.name }}</strong></p></div>
+      </div>
+      <div class="row">
+        <div class="col-md text-center"><p class="m-0 py-1 font-weight-light">{{ team.position }}</p></div>
+      </div>
+    </div>
+</div>
+{% endfor %}
