@@ -1,0 +1,13 @@
+# template for new post
+---
+layout: ${1:post}
+title: $2
+author: ${3:miskateo.id}
+categories: [${4:experiences}]
+client: $5
+web: $6
+logo: $7
+location: $8
+date: '${9:2018-12-12 09:00:00 +0700}'
+image: ${10:https://via.placeholder.com/200x150?text=MAI}
+---

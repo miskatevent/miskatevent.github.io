@@ -1,11 +1,9 @@
 nav:
 - name: Home
   link: '/'
-- name: Services
-  link: '#services'
-- name: Experiences
-  link: /experiences.html
-- name: Teams
-  link: '#teams'
-- name: Contact
-  link: '#footer'
+- name: Projects
+  link: /projects/
+- name: Documentations
+  link: '/docs/'
+- name: About Us
+  link: '/about.html'

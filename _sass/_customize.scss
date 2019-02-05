@@ -4,6 +4,9 @@
 .top {
 	background-color: $mak-blue;
 }
+.top h1 {
+  color: $white;
+}
 .main {
 	text-shadow: 0 1px 0 rgba($black, .23);
 	color: $white;
@@ -38,14 +41,14 @@
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-// experiences
-.experiences {
-	background-color:  #e4f0f6;
+// projects
+.projects {
+	background-color:  rgba($mak-blue, .2);
 }
 
 // footer
 .footer {
-	background-color: #2b2c2e;
+	background-color: rgba($black, .85);
 	font-family: $font-family-button;
 	color: $mak-gray;
 	h3 {
@@ -58,7 +61,7 @@
 
 // clients
 .clients {
-	background-color: $mak-blue-light;
+	background-color: rgba($mak-blue, .8);
 	img {
 		width: 100%;
 	}
@@ -66,7 +69,10 @@
 
 // copyright
 .copyright {
-	background-color: #1C1D26;
+  background-color: rgba($black, .8);
+  color: $mak-gray;
+}
+.copyright a {
 	color: $mak-gray;
 }
 
@@ -94,4 +100,33 @@
   height: 2px;
 }
 
-
+// particle-js
+#particles-js canvas {
+  top: 80px;
+  position: absolute;
+  display: block;
+  vertical-align: bottom;
+  height: 70vh;
+  width: 100vw;
+  background-attachment:fixed;
+}
+@include media-breakpoint-up(xs) {
+  #particles-js canvas {
+    height: 140vh;
+  }
+}
+@include media-breakpoint-up(sm) {
+  #particles-js canvas {
+    height: 100vh;
+  }
+}
+@include media-breakpoint-up(md) {
+  #particles-js canvas {
+    height: 50vh;
+  }
+}
+@include media-breakpoint-up(xl) {
+  #particles-js canvas {
+    height: 70vh;
+  }
+}

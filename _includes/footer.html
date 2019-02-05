@@ -26,19 +26,24 @@
             <h3 class="pb-2">Contact us</h3>
           </div>
         </div>
-        <form>
-        <div class="row">
-          <div class="col-md">
-            <div class="form-group mb-3"><input class="form-control form-control-sm" type="text" placeholder="Your Name"></div>
-            <div class="form-group mb-3"><input class="form-control form-control-sm" type="email" placeholder="Your Email"></div>
-            <div class="form-group mb-3"><input class="form-control form-control-sm" type="text" placeholder="Your Subject"></div>
-          </div>
-          <div class="col-md">
-            <div class="form-group mb-2"><textarea class="form-control" id="cingcong" rows="3"></textarea></div>
-            <div class="form-group mb-0"><button type="submit" class="btn btn-primary btn-sm">Submit</button></div>
-          </div>
+        <div id="formBlock">
+          <form id="contact-us">
+            <div class="row">
+              <div class="col-md">
+                <div class="form-group mb-3"><input class="form-control form-control-sm" type="text" id="name" name="name" placeholder="Your Name"></div>
+                <div class="form-group mb-3"><input class="form-control form-control-sm" type="email" id="email" name="email" placeholder="Your Email"></div>
+                <div class="form-group mb-3"><input class="form-control form-control-sm" type="text" id="subject" name="subject" placeholder="Your Subject"></div>
+              </div>
+              <div class="col-md">
+                <div class="form-group mb-2"><textarea class="form-control" id="cingcong" name="message" rows="3"></textarea></div>
+                <div class="form-group mb-0"><button type="submit" class="btn btn-primary btn-sm">Submit</button></div>
+              </div>
+            </div>
+          </form>
         </div>
-      </form>
+        <div id="thanksBlock" style="display:none">
+          <p>Thank you, your message has been delivered.</p>
+        </div>
       </div>
     </div>
   </div>

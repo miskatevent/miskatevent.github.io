@@ -13,8 +13,13 @@ source "https://rubygems.org"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem 'wdm', '>= 0.1.0' if Gem.win_platform? 
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 gem "github-pages", group: :jekyll_plugins
 gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
-gem 'jekyll-sitemap'
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-paginate-v2"
+end
+
