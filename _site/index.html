@@ -22,7 +22,18 @@
   <script src="http://localhost:4000/assets/js/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="http://localhost:4000/assets/js/pace.min.js"></script>
   <script src="http://localhost:4000/assets/js/vanilla-back-to-top.min.js"></script>
+
+  
   <script src="http://localhost:4000/assets/js/particles.min.js"></script>
+  <script>
+    /*particle*/
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+  
+
   <script src="http://localhost:4000/assets/js/app.js"></script>
 </head>
 <body><nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">

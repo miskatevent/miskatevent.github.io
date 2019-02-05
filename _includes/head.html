@@ -12,6 +12,17 @@
   <script src="{{ "/assets/js/bootstrap/bootstrap.bundle.min.js" | absolute_url }}"></script>
   <script src="{{ "/assets/js/pace.min.js" | absolute_url }}"></script>
   <script src="{{ "/assets/js/vanilla-back-to-top.min.js" | absolute_url }}"></script>
+
+  {% if page.layout == 'home' %}
   <script src="{{ "/assets/js/particles.min.js" | absolute_url }}"></script>
+  <script>
+    /*particle*/
+    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+    particlesJS.load('particles-js', 'assets/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+  {% endif %}
+
   <script src="{{ "/assets/js/app.js" | absolute_url }}"></script>
 </head>
