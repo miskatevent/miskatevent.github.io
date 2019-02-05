@@ -13,7 +13,11 @@
 		{% for project in sorted-project limit: 4 %}
 		<div class="col-md">
 			<div class="card">
-			  <img src="{{project.image}}" />
+        {% if project.image == '' %}
+          <img src="https://via.placeholder.com/800x600?text=MAI" />
+        {% else %}
+			   <img src="{{site.url}}/uploads/{{project.image}}" />
+        {% endif %}
 			  <div class="card-body">
 			    <h5 class="card-title">{{ project.client }}</h5>
 			    <p class="card-text">{{ project.title }}</p>

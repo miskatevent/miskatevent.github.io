@@ -43,9 +43,15 @@
 }
 // projects
 .projects {
-	background-color:  rgba($mak-blue, .2);
+	background-color:  rgba($black, .03);
 }
-
+.projects img {
+  width: 100%;
+  height: 150px;
+}
+img.ava-teams {
+  width: 100px;
+}
 // footer
 .footer {
 	background-color: rgba($black, .85);
