@@ -15,13 +15,7 @@
 
   {% if page.layout == 'home' %}
   <script src="{{ "/assets/js/particles.min.js" | absolute_url }}"></script>
-  <script>
-    /*particle*/
-    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', 'assets/particles.json', function() {
-      console.log('callback - particles.js config loaded');
-    });
-  </script>
+  <script>particlesJS.load('particles-js', 'assets/particles.json');</script>
   {% endif %}
 
   <script src="{{ "/assets/js/app.js" | absolute_url }}"></script>
