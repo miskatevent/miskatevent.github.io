@@ -7,6 +7,6 @@ client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.svg
 location: Semarang
-date: '2018-12-21 09:00:00 +0700'
+date: '2018-12-21T10:20:00Z'
 image: 'kemenpar/20181221-rcc-asessor-semarang.JPG'
 ---

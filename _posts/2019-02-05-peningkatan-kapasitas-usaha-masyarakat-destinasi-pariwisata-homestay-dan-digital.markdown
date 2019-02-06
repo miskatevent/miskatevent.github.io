@@ -7,6 +7,6 @@ client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.svg
 location: Kabupaten Aceh Selatan, Provinsi Aceh
-date: '2017-05-16 09:00:00 +0700'
+date: '2017-05-16T10:00:00Z'
 image: ''
 ---

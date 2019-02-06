@@ -7,6 +7,6 @@ client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.svg
 location: Kalimantan Selatan
-date: '2017-04-12 09:00:00 +0700'
+date: '2017-04-12T10:00:00Z'
 image: ''
 ---

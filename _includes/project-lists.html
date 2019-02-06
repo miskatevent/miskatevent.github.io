@@ -13,11 +13,11 @@
       <tbody>
         {% for post in paginator.posts %}
         <tr>
-          <th scope="row">{{ paginator.page | times: site.pagination.per_page | minus: 10 | plus: forloop.index }}</th>
+          <th scope="row">{{ paginator.page | times: site.pagination.per_page | minus: site.pagination.per_page | plus: forloop.index }}</th>
           <td>{{ post.title }}</td>
           <td><a href="{{ post.web }}" target=_blank>{{ post.client }}</a></td>
           <td>{{ post.location }}</td>
-          <td>{{ post.date | date_to_string }}</td>
+          <td>{{ post.date | date_to_long_string }}</td>
         </tr>
         {% endfor %}
       </tbody>
@@ -36,9 +36,9 @@
           {% if count == paginator.page %}
             <li class="page-item active"><a class="page-link" href="#">{{ count | pnumber}}</a></li>
           {% elsif count == 1 %}
-            <li class="page-item"><a class="page-link" href="{{ site.pagination.permalink | replace: ':num', 'index.html' }}">{{ count | pnumber }}</a></li>
+            <li class="page-item"><a class="page-link" href="{{ site.url}}/projects/index.html">{{ count | pnumber }}</a></li>
           {% else %}
-            <li class="page-item"><a class="page-link" href="{{ site.pagination.permalink | replace: ':num', count }}index.html">{{ count | pnumber}}</a></li>
+            <li class="page-item"><a class="page-link" href="{{ site.url}}/projects/{{ count }}/index.html">{{ count | pnumber}}</a></li>
           {% endif %}
         {% endfor %}
 
