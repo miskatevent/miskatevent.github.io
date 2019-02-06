@@ -5441,8 +5441,6 @@ readers do not read off random characters that represent icons */
 
 .top { background-color: #45a5d1; }
 
-.top h1 { color: #fff; }
-
 .main { text-shadow: 0 1px 0 rgba(0, 0, 0, 0.23); color: #fff; }
 
 .main-heading { margin-top: 0px; margin-bottom: 26px; font-size: 38px; line-height: 44px; }
