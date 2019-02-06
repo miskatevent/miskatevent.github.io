@@ -48,10 +48,4 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
-<url>
-<loc>http://localhost:4000/projects/project2/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/projects/project3/</loc>
-</url>
 </urlset>

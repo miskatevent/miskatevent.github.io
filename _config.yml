@@ -24,7 +24,7 @@ title-img:        "/assets/img/logo-mai-warna.svg"
 #   sort_field: 'date'
 #   sort_reverse: true
 
-paginate: 4
+paginate: 10
 paginate_path: "/projects/project:num/"
 
 # Build settings
