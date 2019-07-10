@@ -1,10 +1,11 @@
 # Welcome to Jekyll!
+
 title:            Miskat Alam Internasional
 email:            "miskatinternasional@gmil.com"
 description: >- # this means to ignore newlines until "baseurl:"
   An event organizer company in Jakarta
 baseurl:          "" # the subpath of your site, e.g. /blog
-url:              "" # the base hostname & protocol for your site, e.g. http://example.com
+url:              "http://miskateo.id" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: miskateo.id
 github_username:  miskatevent
 
