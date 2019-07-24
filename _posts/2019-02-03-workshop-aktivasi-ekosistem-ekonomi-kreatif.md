@@ -2,7 +2,7 @@
 title: Workshop Aktivasi Ekosistem Ekonomi Kreatif
 layout: post
 author: miskateo.id
-categories: [experiences, bekraf]
+categories: [experiences, bekraf, yogyakarta]
 client: Badan Ekonomi Kreatif Indonesia
 web: http://bekraf.go.id
 logo: logo-bekraf.svg

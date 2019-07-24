@@ -2,7 +2,7 @@
 layout: post
 title: Peningkatan Kapasitas Usaha Masyarakat di Destinasi Pariwisata (Homestay)
 author: miskateo.id
-categories: [experiences, kemenpar]
+categories: [experiences, kemenpar, tasikmalaya]
 client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.go.id

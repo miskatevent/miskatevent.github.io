@@ -2,7 +2,7 @@
 title: Training of Trainers Pengelola Homestay Dalam Rangka Kegiatan Pengembangan Desa Wisata Melalui Pendampingan
 layout: post
 author: miskateo.id
-categories: [experiences, kemenpar]
+categories: [experiences, kemenpar, ntt]
 client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.svg

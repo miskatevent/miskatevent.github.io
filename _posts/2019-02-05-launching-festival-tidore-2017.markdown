@@ -2,7 +2,7 @@
 layout: post
 title: Launching Festival Tidore 2017
 author: miskateo.id
-categories: [experiences, kemenpar]
+categories: [experiences, kemenpar, jakarta]
 client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.svg

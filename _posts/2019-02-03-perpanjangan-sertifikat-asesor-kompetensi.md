@@ -2,7 +2,7 @@
 title: Perpanjangan Sertifikat Asesor Kompetensi
 layout: post
 author: miskateo.id
-categories: [experiences, kemenpar]
+categories: [experiences, kemenpar, semarang]
 client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.svg

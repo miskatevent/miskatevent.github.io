@@ -2,7 +2,7 @@
 layout: post
 title: Gerakan Sadar Wisata Kabupaten Banjar
 author: miskateo.id
-categories: [experiences, kemenpar]
+categories: [experiences, kemenpar, kalsel]
 client: Kementerian Pariwisata Republik Indonesia
 web: http://kemenpar.go.id
 logo: logo-kemenpar.svg
